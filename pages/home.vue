@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 useHead({
-  title: 'テスト完了',
+  title: 'テスト：Home',
   meta: [
     { name: 'fwefrfr', content: 'Nuxt 3' }
   ]
@@ -9,6 +9,10 @@ useHead({
 
 </script>
 
+
 <template>
-  <NuxtPage />
+  <div>
+    <h1 @click="navigateTo('/')">ルート</h1>
+    
+  </div>
 </template>
